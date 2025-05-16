@@ -37,3 +37,39 @@ console.log(num2 > num3); // Checks for greater than
 console.log(num1 < num2); // Checks for lesser than
 console.log(num1 >= num3); // Checks for greater than equal to
 console.log(num1 <= num3); // Checks for lesser than equal to
+
+// Logical Operations in JavaScript
+// Example: You are building an app where the user needs to be logged in AND have a valid credit card to make a purchase.
+
+let isLoggedin = true;
+let isPaid = true;
+
+console.log(isLoggedin && isPaid); // Logical AND (&&): Returns true only if BOTH conditions are true
+console.log(isLoggedin || isPaid); // Logical OR (||): Returns true if AT LEAST ONE condition is true
+console.log(!isLoggedin); // Logical NOT (!): Reverses the boolean value (true becomes false, false becomes true)
+
+// Assignment Operations in JavaScript
+// Assignment operators are used to assign values to variables and modify them.
+
+// Basic assignment
+let x = 10; // Assigns the value 10 to variable x
+
+// Addition assignment
+x += 5; // Same as x = x + 5 → x becomes 15
+
+// Subtraction assignment
+x -= 3; // Same as x = x - 3 → x becomes 12
+
+// Multiplication assignment
+x *= 2; // Same as x = x * 2 → x becomes 24
+
+// Division assignment
+x /= 4; // Same as x = x / 4 → x becomes 6
+
+// Modulus assignment
+x %= 4; // Same as x = x % 4 → x becomes 2
+
+// Exponentiation assignment
+x **= 3; // Same as x = x ** 3 → x becomes 8 (2³)
+
+console.log(x); // Final value of x
